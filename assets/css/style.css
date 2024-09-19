@@ -1,1 +1,39 @@
+/* Base styles for mobile */
+.container {                                 /* Create a container for all content. The padding makes sure the content has room at the edge of the screen.*/
+    width: 100%;
+    padding: 0 15px;
+}
+
+
+
+/* Styles for tablets @768*px*/
+
+@media screen and (min-width: 768px) {                  /* If the screen is bigger than 768px - change rules */
+  .container {                                                   
+    max-width: 750px;                                   /* Set max-width of container just smaller than page for blank space at edge of screen  */
+    margin: 0 auto;                                     /* margin auto centers the container.   */
+  }
+}
+
+
+
+/* Styles for Desktop @ 1024px */
+
+@media screen and (min-width: 1024px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+
+
+
+/* Styles for Large Desktop @1200px */
+
+
+@media screen and (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+
 
